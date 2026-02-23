@@ -1,44 +1,28 @@
 <div align="center">
-  <h1>🛣️ BlackRoad OS</h1>
-  <p><strong>Your AI. Your Hardware. Your Rules.</strong></p>
+  <h1>🔧 BlackRoad Hardware</h1>
+  <p><strong>Pi fleet. IoT. Edge AI. Your silicon, your rules.</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/Agents-30%2C000-FF1D6C?style=for-the-badge&logo=robot&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Repos-1%2C825%2B-9C27B0?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Orgs-17-2979FF?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Pi%20Fleet-4%20Nodes-FF1D6C?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Hailo--8-52%20TOPS-9C27B0?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Agents-30K%20Capacity-2979FF?style=for-the-badge"/>
   </p>
 </div>
 
-## Overview
+## What Lives Here
 
-BlackRoad OS is the infrastructure backbone for AI-first companies — powering 30,000+ concurrent AI agents across edge, cloud, and on-premise hardware.
+Raspberry Pi fleet management, IoT automation, and edge AI deployment.
 
-| Platform | Scale | Status |
-|----------|-------|--------|
-| AI Agents | 30,000 | ✅ Active |
-| Cloudflare Workers | 75+ | ✅ Active |
-| Raspberry Pi Fleet | 4 nodes | ✅ Active |
-| GitHub Actions | 50+ workflows | ✅ Active |
+## Fleet
 
-## Core Systems
+| Node | IP | Role | Capacity |
+|------|----|------|----------|
+| octavia (Pi 5) | 192.168.4.38 | Primary AI | 22,500 agents |
+| lucidia (Pi 5) | 192.168.4.81 | Secondary AI | 7,500 agents |
+| blackroad-pi | 192.168.4.64 | CF Tunnel | Services |
+| alice | 192.168.4.49 | Tertiary | Backup |
 
-- **Tokenless Gateway** — All AI provider secrets live only here
-- **PS-SHA∞ Memory** — Hash-chained persistent AI memory  
-- **CECE Identity** — Portable AI identity across any provider
-- **30K Agent Mesh** — WebSocket + MQTT orchestration
-
-## Organizations
-
-| Org | Purpose |
-|-----|---------|
-| [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc) | Core platform & gateway |
-| [BlackRoad-OS](https://github.com/BlackRoad-OS) | OS, web, docs, agents |
-| [BlackRoad-AI](https://github.com/BlackRoad-AI) | ML models & inference |
-| [BlackRoad-Cloud](https://github.com/BlackRoad-Cloud) | Infrastructure & K8s |
-| [BlackRoad-Security](https://github.com/BlackRoad-Security) | Security & compliance |
-
-## Brand
-
-Primary: `#FF1D6C` · Gradient: `#F5A623 → #FF1D6C → #9C27B0 → #2979FF`
+**Network**: WireGuard hub-and-spoke (10.8.0.0/24)  
+**Lucidia spec**: Hailo-8 x2 (52 TOPS) + 1TB NVMe
 
 ---
-*© BlackRoad OS, Inc. All rights reserved. Proprietary — not open source.*
+*© BlackRoad OS, Inc. All rights reserved.*
