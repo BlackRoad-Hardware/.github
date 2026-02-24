@@ -1,28 +1,38 @@
 <div align="center">
-  <h1>🔧 BlackRoad Hardware</h1>
-  <p><strong>Pi fleet. IoT. Edge AI. Your silicon, your rules.</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Pi%20Fleet-4%20Nodes-FF1D6C?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Hailo--8-52%20TOPS-9C27B0?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Agents-30K%20Capacity-2979FF?style=for-the-badge"/>
-  </p>
+
+# 🔧 BlackRoad Hardware
+
+### Edge Computing Unleashed
+
+IoT management, Raspberry Pi fleet operations, smart home automation, and edge AI on your own hardware.
+
+[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF1D6C?style=for-the-badge)](https://blackroad.io)
+[![Agents](https://img.shields.io/badge/AI_Agents-30%2C000-9C27B0?style=for-the-badge)](https://agents.blackroad.io)
+[![Cost](https://img.shields.io/badge/AI_Cost-%240-F5A623?style=for-the-badge)](https://blackroad.io)
+
 </div>
 
-## What Lives Here
+---
 
-Raspberry Pi fleet management, IoT automation, and edge AI deployment.
+## 🎯 Focus Areas
 
-## Fleet
+`Raspberry Pi` • `IoT` • `Edge AI` • `Fleet Management`
 
-| Node | IP | Role | Capacity |
-|------|----|------|----------|
-| octavia (Pi 5) | 192.168.4.38 | Primary AI | 22,500 agents |
-| lucidia (Pi 5) | 192.168.4.81 | Secondary AI | 7,500 agents |
-| blackroad-pi | 192.168.4.64 | CF Tunnel | Services |
-| alice | 192.168.4.49 | Tertiary | Backup |
+## 🔗 Links
 
-**Network**: WireGuard hub-and-spoke (10.8.0.0/24)  
-**Lucidia spec**: Hailo-8 x2 (52 TOPS) + 1TB NVMe
+| | |
+|---|---|
+| 🌐 **Website** | [blackroad-hardware.github.io](https://blackroad-hardware.github.io) |
+| 📖 **Docs** | [docs.blackroad.io](https://docs.blackroad.io) |
+| 💬 **Status** | [status.blackroad.io](https://status.blackroad.io) |
+| 🤖 **Agents** | [agents.blackroad.io](https://agents.blackroad.io) |
 
 ---
+
+<div align="center">
+
+**Part of [BlackRoad OS](https://blackroad.io)** — 30,000 AI Agents • 17 Organizations • 1,800+ Repos • $0 AI Cost
+
 *© BlackRoad OS, Inc. All rights reserved.*
+
+</div>
