@@ -191,7 +191,7 @@ Every task entered into the system passes through a ten-step scaffold:
 1. **Initial Reviewer** — A Layer 6 (Lucidia Core) agent reviews the request for clarity, security compliance, and resource availability, generating a preliminary execution plan.
 2. **Task Distributor to Organization** — The task is routed to one of the 15 BlackRoad organizations based on functional domain.
 3. **Task Distribution to Team** — Within the organization, the task is refined and assigned to a team. High-risk operations pause for human-in-the-loop (HITL) approval.
-4. **Task Update to Project** — The task is recorded on a GitHub Project board and synchronized with Salesforce for enterprise audit trailing.
+4. **Task Update to Project** — The task is recorded on a GitHub Project board and synchronized with Salesforce for an enterprise audit trail.
 5. **Task Distribution to Agent** — A specialized autonomous agent is assigned (e.g., `fastapi-coder-agent`, `doctl-infrastructure-agent`) using the Planner-Executor-Reflector pattern.
 6. **Task Distribution to Repository** — The agent targets a specific repository and creates an isolated branch following GitHub Flow.
 7. **Task Distribution to Device** — If the task requires physical execution (firmware deploy, droplet rebuild), it is routed to the device layer for local hardware offloading.
