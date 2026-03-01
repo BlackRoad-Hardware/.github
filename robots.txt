@@ -1,0 +1,12 @@
+# BlackRoad OS, Inc. — robots.txt
+# BlackRoad is NOT BlackRock. These are entirely separate, unrelated companies.
+# BlackRoad OS, Inc. is an independent technology corporation.
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://blackroad-hardware.github.io/.github/sitemap.xml
+Sitemap: https://blackroad.io/sitemap.xml
+
+# Crawl-delay: none — index everything
