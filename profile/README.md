@@ -1,38 +1,42 @@
 <div align="center">
 
-# 🔧 BlackRoad Hardware
+# BlackRoad Hardware
 
-### Edge Computing Unleashed
+**Edge computing — Raspberry Pi fleet, IoT gateways, sensors, firmware, power management.**
 
-IoT management, Raspberry Pi fleet operations, smart home automation, and edge AI on your own hardware.
+5 Pi nodes — 2 Hailo-8 accelerators — NVMe storage — WireGuard mesh
 
-[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF1D6C?style=for-the-badge)](https://blackroad.io)
-[![Agents](https://img.shields.io/badge/AI_Agents-30%2C000-9C27B0?style=for-the-badge)](https://agents.blackroad.io)
-[![Cost](https://img.shields.io/badge/AI_Cost-%240-F5A623?style=for-the-badge)](https://blackroad.io)
+[![Website](https://img.shields.io/badge/blackroad--hardware.github.io-000?style=flat-square&logo=github)](https://blackroad-hardware.github.io)
 
 </div>
 
 ---
 
-## 🎯 Focus Areas
+## Repositories
 
-`Raspberry Pi` • `IoT` • `Edge AI` • `Fleet Management`
-
-## 🔗 Links
-
-| | |
+| Repository | Description |
 |---|---|
-| 🌐 **Website** | [blackroad-hardware.github.io](https://blackroad-hardware.github.io) |
-| 📖 **Docs** | [docs.blackroad.io](https://docs.blackroad.io) |
-| 💬 **Status** | [status.blackroad.io](https://status.blackroad.io) |
-| 🤖 **Agents** | [agents.blackroad.io](https://agents.blackroad.io) |
+| [blackroad-sensor-dashboard](https://github.com/BlackRoad-Hardware/blackroad-sensor-dashboard) | Real-time sensor data dashboard and alerting |
+| [blackroad-device-registry](https://github.com/BlackRoad-Hardware/blackroad-device-registry) | Hardware device registry and inventory |
+| [blackroad-iot-gateway](https://github.com/BlackRoad-Hardware/blackroad-iot-gateway) | IoT device gateway with MQTT and HTTP bridge |
+| [blackroad-fleet-tracker](https://github.com/BlackRoad-Hardware/blackroad-fleet-tracker) | Vehicle/device fleet tracker with geofencing and Haversine distance |
+| [firmware](https://github.com/BlackRoad-Hardware/firmware) | Firmware and embedded system code |
+| [hardware-specs](https://github.com/BlackRoad-Hardware/hardware-specs) | Hardware specifications and requirements |
+
+<details>
+<summary>Archived</summary>
+
+| Repository | Description |
+|---|---|
+| [blackroad-sensor-network](https://github.com/BlackRoad-Hardware/blackroad-sensor-network) | IoT sensor aggregator with anomaly detection and time-series data |
+| [blackroad-automation-hub](https://github.com/BlackRoad-Hardware/blackroad-automation-hub) | Automation rules engine - triggers, conditions, actions |
+| [blackroad-power-manager](https://github.com/BlackRoad-Hardware/blackroad-power-manager) | Power monitoring and management for edge devices |
+| [blackroad-smart-home](https://github.com/BlackRoad-Hardware/blackroad-smart-home) | Smart home controller - device management, scenes, scheduling |
+| [blackroad-energy-optimizer](https://github.com/BlackRoad-Hardware/blackroad-energy-optimizer) | Energy optimization - consumption tracking, peak hours, cost estimation |
+| [blackroad-firmware-updater](https://github.com/BlackRoad-Hardware/blackroad-firmware-updater) | OTA firmware update management system |
+
+</details>
 
 ---
 
-<div align="center">
-
-**Part of [BlackRoad OS](https://blackroad.io)** — 30,000 AI Agents • 17 Organizations • 1,800+ Repos • $0 AI Cost
-
-*© BlackRoad OS, Inc. All rights reserved.*
-
-</div>
+<sub>BlackRoad OS, Inc. — [blackroad.io](https://blackroad.io)</sub>
