@@ -1,42 +1,25 @@
-<div align="center">
-
 # BlackRoad Hardware
 
-**Edge computing — Raspberry Pi fleet, IoT gateways, sensors, firmware, power management.**
-
-5 Pi nodes — 2 Hailo-8 accelerators — NVMe storage — WireGuard mesh
-
-[![Website](https://img.shields.io/badge/blackroad--hardware.github.io-000?style=flat-square&logo=github)](https://blackroad-hardware.github.io)
-
-</div>
+**A division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) — Proprietary Software**
 
 ---
 
-## Repositories
+## About
 
-| Repository | Description |
-|---|---|
-| [blackroad-sensor-dashboard](https://github.com/BlackRoad-Hardware/blackroad-sensor-dashboard) | Real-time sensor data dashboard and alerting |
-| [blackroad-device-registry](https://github.com/BlackRoad-Hardware/blackroad-device-registry) | Hardware device registry and inventory |
-| [blackroad-iot-gateway](https://github.com/BlackRoad-Hardware/blackroad-iot-gateway) | IoT device gateway with MQTT and HTTP bridge |
-| [blackroad-fleet-tracker](https://github.com/BlackRoad-Hardware/blackroad-fleet-tracker) | Vehicle/device fleet tracker with geofencing and Haversine distance |
-| [firmware](https://github.com/BlackRoad-Hardware/firmware) | Firmware and embedded system code |
-| [hardware-specs](https://github.com/BlackRoad-Hardware/hardware-specs) | Hardware specifications and requirements |
+BlackRoad Hardware is the IoT and devices division of BlackRoad OS. BlackRoad Hardware manages the physical fleet — Raspberry Pi nodes, sensors, firmware, IoT gateways, and device automation. The edge compute layer that makes sovereignty possible.
 
-<details>
-<summary>Archived</summary>
+All repositories in this organization are proprietary to BlackRoad OS, Inc. Source code is publicly visible for transparency. Commercial use, forking, and redistribution are prohibited.
 
-| Repository | Description |
-|---|---|
-| [blackroad-sensor-network](https://github.com/BlackRoad-Hardware/blackroad-sensor-network) | IoT sensor aggregator with anomaly detection and time-series data |
-| [blackroad-automation-hub](https://github.com/BlackRoad-Hardware/blackroad-automation-hub) | Automation rules engine - triggers, conditions, actions |
-| [blackroad-power-manager](https://github.com/BlackRoad-Hardware/blackroad-power-manager) | Power monitoring and management for edge devices |
-| [blackroad-smart-home](https://github.com/BlackRoad-Hardware/blackroad-smart-home) | Smart home controller - device management, scenes, scheduling |
-| [blackroad-energy-optimizer](https://github.com/BlackRoad-Hardware/blackroad-energy-optimizer) | Energy optimization - consumption tracking, peak hours, cost estimation |
-| [blackroad-firmware-updater](https://github.com/BlackRoad-Hardware/blackroad-firmware-updater) | OTA firmware update management system |
+## Parent Organization
 
-</details>
+This division operates under [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc), the corporate root of the BlackRoad ecosystem. See the parent org for the full technology stack, product catalog, and organizational structure.
+
+## License
+
+Proprietary — BlackRoad OS, Inc. See individual repositories for license terms.
 
 ---
 
-<sub>BlackRoad OS, Inc. — [blackroad.io](https://blackroad.io)</sub>
+**BlackRoad OS — Pave Tomorrow.**
+
+*Copyright 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
