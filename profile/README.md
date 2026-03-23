@@ -1,16 +1,14 @@
 # BlackRoad-Hardware
 
-**BlackRoad Hardware — IoT, sensor networks, Pi 5 + Hailo-8 fleet. Pave Tomorrow.**
+**Pi fleet and hardware**
 
-> Remember the Road. Pave Tomorrow.
+Part of [BlackRoad OS Enterprise](https://github.com/enterprises/blackroad-os) — sovereign infrastructure.
 
-BlackRoad OS, Inc. — Delaware C-Corp, incorporated November 17, 2025.
+| | |
+|---|---|
+| **Enterprise** | [github.com/enterprises/blackroad-os](https://github.com/enterprises/blackroad-os) |
+| **Website** | [blackroad.io](https://blackroad.io) |
+| **Search** | [search.blackroad.io](https://search.blackroad.io) |
+| **Org Page** | [blackroad-hardware.github.io](https://blackroad-hardware.github.io) |
 
-21 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
-
-18 orgs · 20 domains · 200 agents · 2,156 repos · Sovereign infrastructure
-
----
-
-Proprietary — BlackRoad OS, Inc. All rights reserved. Incorporated 2025.
-
+> 34 orgs · 2,315+ repos · Pave Tomorrow.
