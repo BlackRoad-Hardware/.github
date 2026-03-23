@@ -1,19 +1,16 @@
 # BlackRoad-Hardware
 
-**IoT and Pi fleet** — Part of the BlackRoad OS ecosystem.
+**BlackRoad Hardware — IoT, sensor networks, Pi 5 + Hailo-8 fleet. Pave Tomorrow.**
 
-> 18 orgs · 20 domains · 200 agents · Sovereign infrastructure
+> Remember the Road. Pave Tomorrow.
 
-18 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+BlackRoad OS, Inc. — Delaware C-Corp, incorporated November 17, 2025.
 
-## Key Repositories
+21 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
 
-- [.github](https://github.com/BlackRoad-Hardware/.github) — Edge devices, Pi fleet, IoT, Hailo-8 — downstream from BlackRoad-OS-Inc[0:60]
-- [blackroad-hardware.github.io](https://github.com/BlackRoad-Hardware/blackroad-hardware.github.io) — BlackRoad OS GitHub Pages[0:60]
-- [hailo-vision](https://github.com/BlackRoad-Hardware/hailo-vision) — Hailo Vision — Edge AI at 52 TOPS[0:60]
-- [README](https://github.com/BlackRoad-Hardware/README) — BlackRoad OS — Internal README for BlackRoad-Hardware[0:60]
-- [operator](https://github.com/BlackRoad-Hardware/operator) — Operational root repo for BlackRoad-Hardware. Mirrors the BlackRoad-OS-Inc/blackroad-operator control-plane pattern.[0:60]
+18 orgs · 20 domains · 200 agents · 2,156 repos · Sovereign infrastructure
 
 ---
 
-Proprietary — BlackRoad OS, Inc. All rights reserved.
+Proprietary — BlackRoad OS, Inc. All rights reserved. Incorporated 2025.
+
