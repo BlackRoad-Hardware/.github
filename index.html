@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BlackRoad OS</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#d4d4d4;font-family:'Space Grotesk',system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:40px}
+.dots{display:flex;gap:4px}.dots span{width:8px;height:8px;border-radius:50%}
+h1{font-size:20px;font-weight:700;color:#e0e0e0}
+.org{font-family:'JetBrains Mono',monospace;font-size:13px;color:#555}
+p{font-size:14px;color:#777;text-align:center;max-width:400px;line-height:1.6}
+.links{display:flex;gap:16px;margin-top:8px}
+a{color:#999;text-decoration:none;font-size:13px;padding:8px 16px;border:1px solid #222;border-radius:6px}
+a:hover{color:#fff;border-color:#444}
+.tagline{font-size:12px;color:#3a3a3a;margin-top:24px;font-family:'JetBrains Mono',monospace}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+var org=location.hostname.split('.')[0]||'BlackRoad';
+var el=document.getElementById('org-name');
+if(el)el.textContent=org;
+fetch('https://network-scheduler.blackroad.workers.dev/visit').catch(function(){});
+});
+</script>
+</head><body>
+<div class="dots"><span style="background:#aaa"></span><span style="background:#888"></span><span style="background:#666"></span><span style="background:#999"></span><span style="background:#777"></span><span style="background:#bbb"></span></div>
+<h1>BlackRoad OS</h1>
+<span class="org" id="org-name"></span>
+<p>Part of the BlackRoad OS network. 18 products. 27 agents. 20 domains. Built on Raspberry Pis.</p>
+<div class="links">
+<a href="https://os.blackroad.io/live">Live Broadcast</a>
+<a href="https://blackroad-products.github.io/roadie/">Roadie</a>
+<a href="https://images.blackroad.io/podcast/feed.xml">Podcasts</a>
+</div>
+<span class="tagline">Build anything. Remember everything.</span>
+</body></html>
